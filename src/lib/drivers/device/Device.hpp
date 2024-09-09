@@ -98,7 +98,7 @@ public:
 	 *
 	 * The actual size of each unit quantity is device-specific.
 	 *
-	 * @param offset	The device address at which to start reading
+	 * @param address	The device address at which to start reading
 	 * @param data		The buffer into which the read values should be placed.
 	 * @param count		The number of items to read.
 	 * @return		The number of items read on success, negative errno otherwise.
